@@ -18,7 +18,7 @@ object DataSource {
     )
 
     val products3 = listOf(
-        Product("DELL Ноутбук DELL Precision 15 3561", "Диагональ экрана: 15.6\"; Разрешение экрана: 1920x1080; Поверхность экрана: антибликовая; ", R.drawable.lap7,115000),
+        Product("Ноутбук DELL Precision 15 3561", "Диагональ экрана: 15.6\"; Разрешение экрана: 1920x1080; Поверхность экрана: антибликовая; ", R.drawable.lap7,115000),
         Product("Ноутбук DELL Inspiron 7400", "(2560x1600, Intel Core i5 2.4 ГГц, RAM 8 ГБ, SSD 512 ГБ, Win10 Home), 7400-8532, platinum silver", R.drawable.lap8,88000),
         Product("Ноутбук DELL Vostro 3400", "(1920x1080, Intel Core i5 2.4 ГГц, RAM 4 ГБ, HDD 1000 ГБ, Win10 Home), 3400-7503, черный", R.drawable.lap9,170000)
     )
