@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/laptops/app/src/main/res/drawable/bg_constraint_layout.xml" value="0.36974358974358973" />
+        <entry key="..\:/laptops/app/src/main/res/drawable/ic_back.xml" value="0.36974358974358973" />
+        <entry key="..\:/laptops/app/src/main/res/drawable/ic_search.xml" value="0.36974358974358973" />
+        <entry key="..\:/laptops/app/src/main/res/layout/activity_categories.xml" value="0.29528985507246375" />
+        <entry key="..\:/laptops/app/src/main/res/layout/activity_details.xml" value="0.29528985507246375" />
+        <entry key="..\:/laptops/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/laptops/app/src/main/res/layout/activity_main.xml" value="0.29528985507246375" />
+        <entry key="..\:/laptops/app/src/main/res/layout/activity_products.xml" value="0.29528985507246375" />
+        <entry key="..\:/laptops/app/src/main/res/layout/activity_reg.xml" value="0.29528985507246375" />
+        <entry key="..\:/laptops/app/src/main/res/layout/item_product.xml" value="0.29528985507246375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

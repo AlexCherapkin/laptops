@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">laptops</string>
+    <string name="authorization">Авторизация</string>
+    <string name="login">Вход</string>
+    <string name="sign_up">Регистрация в приложении</string>
+    <string name="sign_up_button">Зарегистрироваться</string>
+    <string name="login_hint">Логин</string>
+    <string name="password_hint">Пароль</string>
+    <string name="repeat_password_hint">Повторите пароль</string>
+    <string name="login_signup_hint">Придумайте логин</string>
+    <string name="password_signup_hint">Придумайте пароль</string>
+    <string name="password_repeat_hint">Повторите пароль</string>
+    <string name="search">Поиск товаров</string>
+    <string name="fitrm">Laptops</string>
+    <string name="firms">Фирмы</string>
+    <string name="apple">Apple</string>
+    <string name="asus">Asus</string>
+    <string name="dell">Dell</string>
 </resources>
