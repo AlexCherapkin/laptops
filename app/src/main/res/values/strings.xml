@@ -16,4 +16,5 @@
     <string name="apple">Apple</string>
     <string name="asus">Asus</string>
     <string name="dell">Dell</string>
+    <string name="error">Ошибка при загрузке товаров</string>
 </resources>

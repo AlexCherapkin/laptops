@@ -1,11 +1,11 @@
 package com.example.laptops.model
 
-import androidx.annotation.DrawableRes
+import kotlinx.serialization.Serializable
 
+@Serializable
 data class Product(
     val name: String,
     val description: String,
-    @DrawableRes
-    val image: Int,
-    val price: Int,
+    val image: String,
+    val price: Int
 )

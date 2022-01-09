@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
+import coil.load
 import com.example.laptops.R
 import com.example.laptops.databinding.FragmentDetailsBinding
 
@@ -19,7 +20,7 @@ class DetailsFragment : Fragment(R.layout.fragment_details) {
         fun newInstance(
             name: String,
             description: String,
-            image: Int,
+            image: String,
             price: Int,
         ): DetailsFragment {
             val args = bundleOf(
@@ -44,12 +45,13 @@ class DetailsFragment : Fragment(R.layout.fragment_details) {
 
         val name = arguments?.getString("KEY_NAME")
         val description = arguments?.getString("KEY_DESCRIPTION")
-        val image = arguments?.getInt("KEY_IMAGE")
+        val image = arguments?.getString("KEY_IMAGE")
         val price = arguments?.getInt("KEY_PRICE")
 
-        if (image != null) {
-            binding.ivItem.setImageResource(image)
-        }
+            binding.ivItem.load(image){
+                placeholder(R.drawable.ic_launcher_background)
+            }
+
         binding.tvTitle.text = name
         binding.tvDescription.text = description
         binding.tvTitle2.text = name

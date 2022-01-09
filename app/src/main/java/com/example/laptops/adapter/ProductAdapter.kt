@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import com.example.laptops.model.Product
 import com.example.laptops.R
 
@@ -49,7 +50,12 @@ class ProductAdapter(
             tvName.text = product.name
             tvDescription.text = product.description
             tvPrice.text = product.price.toString()
-            ivCover.setImageResource(product.image)
+
+            Glide.with(itemView.context)
+                .load(product.image)
+                .centerCrop()
+                .placeholder(R.drawable.ic_launcher_background)
+                .into(ivCover)
         }
     }
 }
