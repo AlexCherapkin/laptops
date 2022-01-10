@@ -1,4 +1,4 @@
-package com.example.laptops.model
+package com.example.laptops.data.model
 
 import kotlinx.serialization.Serializable
 

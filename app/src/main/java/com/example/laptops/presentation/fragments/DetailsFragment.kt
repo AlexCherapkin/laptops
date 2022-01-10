@@ -1,4 +1,4 @@
-package com.example.laptops.fragments
+package com.example.laptops.presentation.fragments
 
 import android.os.Bundle
 import android.view.View

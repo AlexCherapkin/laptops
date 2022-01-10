@@ -1,6 +1,6 @@
-package com.example.laptops.network
+package com.example.laptops.domain.network
 
-import com.example.laptops.model.Product
+import com.example.laptops.data.model.Product
 import retrofit2.http.GET
 
 interface RestApi {

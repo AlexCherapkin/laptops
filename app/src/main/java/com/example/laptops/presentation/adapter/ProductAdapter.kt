@@ -1,4 +1,4 @@
-package com.example.laptops.adapter
+package com.example.laptops.presentation.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,7 +7,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.laptops.model.Product
+import com.example.laptops.data.model.Product
 import com.example.laptops.R
 
 typealias OnProductClickListener = (Product) -> Unit

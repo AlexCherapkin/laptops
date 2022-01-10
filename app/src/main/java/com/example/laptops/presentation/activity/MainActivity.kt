@@ -1,11 +1,11 @@
-package com.example.laptops.activity
+package com.example.laptops.presentation.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.example.laptops.R
 import com.example.laptops.databinding.ActivityMainBinding
-import com.example.laptops.fragments.LoginFragment
+import com.example.laptops.presentation.fragments.LoginFragment
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
