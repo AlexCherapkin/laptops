@@ -17,4 +17,5 @@
     <string name="asus">Asus</string>
     <string name="dell">Dell</string>
     <string name="error">Ошибка при загрузке товаров</string>
+    <string name="refresh">Обновить</string>
 </resources>
