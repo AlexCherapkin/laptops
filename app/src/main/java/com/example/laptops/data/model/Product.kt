@@ -1,11 +1,14 @@
 package com.example.laptops.data.model
 
+import androidx.room.ColumnInfo
+import androidx.room.Entity
 import kotlinx.serialization.Serializable
 
 @Serializable
+@Entity(primaryKeys = ["name","description","image","price"])
 data class Product(
-    val name: String,
-    val description: String,
-    val image: String,
-    val price: Int
+    @ColumnInfo val name: String,
+    @ColumnInfo val description: String,
+    @ColumnInfo val image: String,
+    @ColumnInfo val price: Int
 )
